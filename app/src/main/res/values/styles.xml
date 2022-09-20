@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- page_3 styles -->
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/rectangle_1_color</item>
+	</style>
+	<style name="NumberPickerText">
+		<item name="android:textSize">22sp</item>
+<!--		<item name="android:selectionDividerHeight">2dp</item>-->
+<!--		<item name="android:selectionDividersDistance">25dp</item>-->
+<!--		<item name="android:internalMinWidth">50dp</item>-->
+<!--		<item name="android:internalMaxHeight">100dp</item>-->
+<!--		<item name="android:scaleY">3</item>-->
+<!--		<item name="android:scaleX">3</item>-->
+<!--		<item name="android:paddingBottom">12pt</item>-->
+<!--		<item name="android:padding">12pt</item>-->
+	</style>
+
+</resources>

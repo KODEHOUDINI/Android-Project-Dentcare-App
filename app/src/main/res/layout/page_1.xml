@@ -1,0 +1,93 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		page_3
+     *	@date 		Thursday 04th of August 2022 06:30:04 PM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView
+		android:id="@+id/page_1"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/page_page_1_ek1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp">
+
+			<View
+				android:id="@+id/_bg__page_1_ek2"
+				android:layout_width="394dp"
+				android:layout_height="780dp"
+				android:background="@drawable/_bg__page_1_ek2_shape"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<pl.droidsonroids.gif.GifImageView
+				android:id="@+id/__img___page1img"
+				android:layout_width="300dp"
+				android:layout_height="300dp"
+				android:contentDescription="@string/img_page1img"
+				android:src="@drawable/__img___page1img"
+				app:layout_constraintBottom_toBottomOf="@+id/_bg__page_1_ek2"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="@+id/_bg__page_1_ek2"
+				app:layout_constraintVertical_bias="0.336" />
+
+
+			<TextView
+				android:id="@+id/__apptitle"
+				android:layout_width="243dp"
+				android:layout_height="53dp"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:letterSpacing="0.1"
+				android:text="@string/__apptitle_string"
+				android:textColor="@color/rectangle_3_color"
+				android:textSize="36sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toTopOf="@+id/__slogan"
+				app:layout_constraintEnd_toEndOf="@+id/_bg__page_1_ek2"
+				app:layout_constraintHorizontal_bias="0.575"
+				app:layout_constraintStart_toStartOf="@+id/_bg__page_1_ek2"
+				app:layout_constraintTop_toBottomOf="@+id/__img___page1img"
+				app:layout_constraintVertical_bias="1.0" />
+
+			<TextView
+				android:id="@+id/__slogan"
+				android:layout_width="319dp"
+				android:layout_height="37dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginTop="496dp"
+				android:gravity="center"
+				android:text="@string/__slogan_string"
+				android:textColor="@color/rectangle_3_color"
+				android:textSize="22sp"
+				android:textStyle="bold"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.566"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>

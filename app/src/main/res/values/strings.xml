@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- page_3 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="__teethtimer_string">BRUSH YOUR TEETH </string>
+	<string name="__tip_string">USEFUL TIPS</string>
+	<string name="__brushtimer_string">CHANGE YOUR BRUSH</string>
+	<string name="__wakeup_string">Which Time Do You Wake Up ?</string>
+	<string name="__slptime_string">Which Time Do You Sleep ?</string>
+	<string name="__slogan_string">Your Smile Is Our Priority</string>
+	<string name="__apptitle_string">DentCare</string>
+	<string name="btn">Set Time</string>
+	<string name="btn2">Reset Time</string>
+	<string name="__changebrush_string">Do not forget to change your brush after every three months</string>
+	<string name="__Timerz">Hr</string>
+	<string name="img_page2img1">__img___page2img1</string>
+	<string name="hr">Hr</string>
+	<string name="min">Min</string>
+	<string name="tip">TextView TextView TextView TextView</string>
+	<string name="img_page3img2">__img___page3img2</string>
+	<string name="img_page3img1">__img___page3img1</string>
+	<string name="checkbox1">Morning</string>
+	<string name="checkbox2">Evening</string>
+	<string name="img_page1img">__img___page1img</string>
+	<string-array name="am_pm">
+		<item>AM</item>
+		<item>PM</item>
+	</string-array>
+</resources>

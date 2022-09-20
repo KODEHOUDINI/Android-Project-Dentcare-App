@@ -1,0 +1,236 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		page_3
+	 *	@date 		Thursday 04th of August 2022 06:30:04 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/page_3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+
+			<View
+				android:id="@+id/_bg__page_3_ek2"
+				android:layout_width="391dp"
+				android:layout_height="782dp"
+				android:background="@drawable/_bg__page_3_ek2_shape"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:layout_constraintVertical_bias="0.0" />
+
+			<View
+				android:id="@+id/rectangle_1"
+				android:layout_width="323dp"
+				android:layout_height="158dp"
+				android:background="@drawable/rectangle_1_shape"
+				app:layout_constraintBottom_toTopOf="@+id/__teethtimer"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="@+id/_bg__page_3_ek2"
+				app:layout_constraintVertical_bias="0.634" />
+
+			<View
+				android:id="@+id/rectangle_3"
+				android:layout_width="323dp"
+				android:layout_height="158dp"
+				android:layout_marginTop="468dp"
+				android:background="@drawable/rectangle_3_shape"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<TextView
+				android:id="@+id/__brushtimer"
+				android:layout_width="278dp"
+				android:layout_height="31.5dp"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:text="@string/__brushtimer_string"
+				android:textColor="@color/rectangle_1_color"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toTopOf="@+id/rectangle_3"
+				app:layout_constraintEnd_toEndOf="@+id/_bg__page_3_ek2"
+				app:layout_constraintHorizontal_bias="0.512"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/rectangle_4"
+				app:layout_constraintVertical_bias="0.88" />
+
+			<View
+				android:id="@+id/rectangle_4"
+				android:layout_width="323dp"
+				android:layout_height="158dp"
+				android:background="@drawable/rectangle_4_shape"
+				app:layout_constraintBottom_toTopOf="@+id/rectangle_3"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="@+id/_bg__page_3_ek2"
+				app:layout_constraintVertical_bias="0.736" />
+
+			<TextView
+				android:id="@+id/__teethtimer"
+				android:layout_width="279dp"
+				android:layout_height="33.5dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginBottom="8dp"
+				android:gravity="center"
+				android:text="@string/__teethtimer_string"
+				android:textColor="@color/rectangle_1_color"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toTopOf="@+id/rectangle_4"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent" />
+
+			<TextView
+				android:id="@+id/__changebrush"
+				android:layout_width="194dp"
+				android:layout_height="102dp"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:text="@string/__changebrush_string"
+				android:textColor="@color/rectangle_1_color"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+				app:layout_constraintHorizontal_bias="0.521"
+				app:layout_constraintStart_toEndOf="@+id/__img___page3img2"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+				app:layout_constraintVertical_bias="0.41" />
+
+			<TextView
+				android:id="@+id/tipOfDay"
+				android:layout_width="252dp"
+				android:layout_height="82dp"
+				android:gravity="center"
+				android:text="@string/tip"
+				android:textColor="@color/rectangle_3_color"
+				android:textSize="25sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+				app:layout_constraintHorizontal_bias="0.473"
+				app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+				app:layout_constraintTop_toBottomOf="@+id/__tip"
+				app:layout_constraintVertical_bias="0.0" />
+
+			<Button
+				android:id="@+id/button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/rectangle_4_ek1_shape"
+				android:letterSpacing="0.1"
+				android:onClick="onBtnClick"
+				android:padding="5dp"
+				android:paddingHorizontal="10dp"
+				android:text="@string/btn2"
+				android:textColor="@color/rectangle_1_color"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.498"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/rectangle_3"
+				app:layout_constraintVertical_bias="0.281" />
+
+			<TextView
+				android:id="@+id/__tip"
+				android:layout_width="279dp"
+				android:layout_height="33.5dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginTop="4dp"
+				android:gravity="center"
+				android:text="@string/__tip_string"
+				android:textColor="@color/rectangle_3_color"
+				android:textSize="25sp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_1" />
+
+			<pl.droidsonroids.gif.GifImageView
+				android:id="@+id/__img___page3img2"
+				android:layout_width="98dp"
+				android:layout_height="113dp"
+				android:contentDescription="@string/img_page3img2"
+				android:src="@drawable/__img___page3img2"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+				app:layout_constraintHorizontal_bias="0.036"
+				app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_3" />
+
+			<pl.droidsonroids.gif.GifImageView
+				android:id="@+id/__img___page3img1"
+				android:layout_width="123dp"
+				android:layout_height="103dp"
+				android:contentDescription="@string/img_page3img1"
+				android:src="@drawable/__img___page3img1"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+				app:layout_constraintHorizontal_bias="0.041"
+				app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_4" />
+
+			<CheckBox
+				android:id="@+id/checkBox2"
+				android:layout_width="153dp"
+				android:layout_height="55dp"
+				android:gravity="center"
+				android:letterSpacing="0.1"
+				android:text="@string/checkbox2"
+				android:textColor="@color/rectangle_1_color"
+				android:textColorLink="#F5F5F5"
+				android:textSize="25sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+				app:layout_constraintHorizontal_bias="0.256"
+				app:layout_constraintStart_toEndOf="@+id/__img___page3img1"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+				app:layout_constraintVertical_bias="0.737" />
+
+			<CheckBox
+				android:id="@+id/checkBox1"
+				android:layout_width="153dp"
+				android:layout_height="55dp"
+				android:gravity="center"
+				android:letterSpacing="0.1"
+				android:text="@string/checkbox1"
+				android:textColor="@color/rectangle_1_color"
+				android:textColorLink="@color/rectangle_1_color"
+				android:textSize="25sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+				app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+				app:layout_constraintHorizontal_bias="0.256"
+				app:layout_constraintStart_toEndOf="@+id/__img___page3img1"
+				app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+				app:layout_constraintVertical_bias="0.291" />
+
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+	</ScrollView>
+</HorizontalScrollView>
