@@ -1,6 +1,3 @@
----
-title: DCIT 202 (GROUP 2 PROJECT)
----
 ### NOTE: Due to the size of our video(33mb which exceeds the 25mb file upload limit, we have posted our video on youtube instead. Watch here: https://youtu.be/5DkA4aBOwN8 )
 
 # DCIT 202 (GROUP 2 PROJECT)
